@@ -17,11 +17,12 @@
                 <p class="quiz__score-label">Pontuação: <span class="quiz__score-value" id="score">0</span></p>
             </div>
             <button class="quiz__start" id="start-quiz">Iniciar Quiz</button>
-            <div class="quiz__question" id="question-1">
+
+            <section class="quiz__question quiz__question--hidden" id="question-1">
                 <p class="quiz__question-label">Questão 1</p>
                 <p class="quiz__question-text">Qual é a capital do Brasil?</p>
                 <div class="quiz__options">
-                    <button class="quiz__option">
+                    <button class="quiz__option" data-correct="true">
                         <span class="quiz__option-letter">A</span>
                         <p class="quiz__option-text">Brasilia</p>
                     </button>
@@ -38,10 +39,58 @@
                         <p class="quiz__option-text">Belo Horizonte</p>
                     </button>
                 </div>
-            </div>
+            </section>
+            <section class="quiz__question quiz__question--hidden" id="question-2">
+                <p class="quiz__question-label">Questão 2</p>
+                <p class="quiz__question-text">Qual é o menor estado do Brasil?</p>
+                <div class="quiz__options">
+                    <button class="quiz__option" data-correct="true">
+                        <span class="quiz__option-letter">A</span>
+                        <p class="quiz__option-text">Brasilia</p>
+                    </button>
+                    <button class="quiz__option">
+                        <span class="quiz__option-letter">B</span>
+                        <p class="quiz__option-text">São Paulo</p>
+                    </button>
+                    <button class="quiz__option">
+                        <span class="quiz__option-letter">C</span>
+                        <p class="quiz__option-text">Rio de Janeiro</p>
+                    </button>
+                    <button class="quiz__option">
+                        <span class="quiz__option-letter">D</span>
+                        <p class="quiz__option-text">Belo Horizonte</p>
+                    </button>
+                </div>
+            </section>
+            <section class="quiz__question quiz__question--hidden" id="question-3">
+                <p class="quiz__question-label">Questão 3</p>
+                <p class="quiz__question-text">Qual é o maior estado do Brasil?</p>
+                <div class="quiz__options">
+                    <button class="quiz__option" data-correct="true">
+                        <span class="quiz__option-letter">A</span>
+                        <p class="quiz__option-text">Brasilia</p>
+                    </button>
+                    <button class="quiz__option">
+                        <span class="quiz__option-letter">B</span>
+                        <p class="quiz__option-text">São Paulo</p>
+                    </button>
+                    <button class="quiz__option">
+                        <span class="quiz__option-letter">C</span>
+                        <p class="quiz__option-text">Rio de Janeiro</p>
+                    </button>
+                    <button class="quiz__option">
+                        <span class="quiz__option-letter">D</span>
+                        <p class="quiz__option-text">Belo Horizonte</p>
+                    </button>
+                </div>
+            </section>
+
+            <button class="quiz__start quiz__start--hidden" id="finish-quiz" disabled>Finalizar quiz</button>
+
+            
     
     </main>
-    <script src="/script/quiz.js"></script>
+    <script src="script/quiz.js"></script>
     
 </body>
 </html>
