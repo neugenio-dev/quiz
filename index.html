@@ -3,12 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/quiz/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Quiz</title>
 
 </head>
-<body>
-    <h1>Quiz</h1>
-    <p>Quiz sobre a história da internet</p>
+    <body class="page">
+    <main class="quiz">
+            <header class="quiz__header">
+                <h1 class="quiz__title">Quiz</h1>
+                <p class="quiz__subtitle">Teste seus conhecimentos em nosso quiz!</p>
+            </header>
+            <div class="quiz__score">
+                <p class="quiz__score-label">Pontuação: <span class="quiz__score-value" id="score">0</span></p>
+            </div>
+            <button class="quiz__start" id="start-quiz">Iniciar Quiz</button>
+            <div class="quiz__question" id="question-1">
+                <p class="quiz__question-label">Questão 1</p>
+                <p class="quiz__question-text">Qual é a capital do Brasil?</p>
+                <div class="quiz__options">
+                    <button class="quiz__option">
+                        <span class="quiz__option-letter">A</span>
+                        <p class="quiz__option-text">Brasilia</p>
+                    </button>
+                    <button class="quiz__option">
+                        <span class="quiz__option-letter">B</span>
+                        <p class="quiz__option-text">São Paulo</p>
+                    </button>
+                    <button class="quiz__option">
+                        <span class="quiz__option-letter">C</span>
+                        <p class="quiz__option-text">Rio de Janeiro</p>
+                    </button>
+                    <button class="quiz__option">
+                        <span class="quiz__option-letter">D</span>
+                        <p class="quiz__option-text">Belo Horizonte</p>
+                    </button>
+                </div>
+            </div>
+    
+    </main>
+    <script src="/script/quiz.js"></script>
+    
 </body>
 </html>
