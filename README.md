@@ -1,8 +1,8 @@
 # quiz
-https://neugenio-dev.github.io/quiz/
 
 <img width="1205" height="1078" alt="image" src="https://github.com/user-attachments/assets/e5db5cd5-a7a6-46fc-9286-fc9f863c206f" />
 
+---- Link para acesso: https://neugenio-dev.github.io/quiz/
 
 ##  Objetivo do Projeto
 Um projeto prático desenvolvido com o objetivo de dominar os conceitos fundamentais de **Manipulação do DOM (Document Object Model)** em JavaScript Puro (Vanilla JS). Este projeto faz parte da trilha inicial de Front-End da **Alura**.
